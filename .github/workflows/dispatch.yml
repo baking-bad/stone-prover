@@ -12,6 +12,6 @@ jobs:
       - name: Respository dispatch
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          token: ${{ secrets.PAT }}
           repository: JoE11-y/stone-packaging
           event-type: prover-update
